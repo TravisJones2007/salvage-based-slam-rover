@@ -35,4 +35,18 @@ in additon can be carried over to real rover tasks, they are as follows:
 
    Next:
    start ROS2 fundamentals while the LIDAR ships
+
+   ##2026-07-30- Firs real rover node-> scan filter
+
+   -Leanred the Laserscan message structure(ranges,range_min.max, angle fields_
+   -Wrapped my rung-2 scan filter logic into a real ROS2 subscriber node
+   need to wait for LIDAR to arrive to test further
+   -node finds the closest valid obstacle and logs it
+   -Verified the node starts and runs cleanly(Waits for LIDAR data)
+
+   Struggled With
+   -syntax errors
+   -new concepts quite foreign-> will take more practice
+
+   
    
