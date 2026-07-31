@@ -48,5 +48,10 @@ in additon can be carried over to real rover tasks, they are as follows:
    -syntax errors
    -new concepts quite foreign-> will take more practice
 
+   ##2026-07-31
+   Setup a working ROS2 build
+   -created a workspace and package(rover), added the scan filter node
+   -built with colcon
+   -ran with ros2 run
    
    
